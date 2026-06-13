@@ -42,9 +42,9 @@
 > "Speed. Quality. Cost. You can only pick two. That's it. That's the tradeoff."
 
 **After:**
-> "Speed, quality, cost—pick two."
+> "Pick two: speed, quality, cost."
 
-**Changes:** Single sentence. No performative emphasis.
+**Changes:** Single sentence. No performative emphasis. No em dash.
 
 ---
 

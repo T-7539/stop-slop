@@ -1,6 +1,6 @@
 ---
 name: stop-slop
-description: Remove AI writing patterns from prose. Use when drafting, editing, or reviewing text to eliminate predictable AI tells.
+description: Remove AI writing patterns from prose. Use when drafting, editing, or reviewing text in Codex to eliminate predictable AI tells.
 metadata:
   trigger: Writing prose, editing drafts, reviewing content for AI patterns
   author: Hardik Pandya (https://hvpandya.com)
@@ -9,6 +9,8 @@ metadata:
 # Stop Slop
 
 Eliminate predictable AI writing patterns from prose.
+
+Use this skill when the user asks Codex to write, rewrite, review, or de-slop prose that should sound direct and human.
 
 ## Core Rules
 

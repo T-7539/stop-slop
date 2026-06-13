@@ -6,13 +6,15 @@ A skill for removing AI tells from prose.
 
 ## What this is
 
-AI writing has patterns. Predictable phrases, structures, rhythms. This skill teaches Claude (or any LLM) to catch and remove them.
+AI writing has patterns. Predictable phrases, structures, rhythms. This Codex skill teaches Codex to catch and remove them.
 
 ## Skill Structure
 
 ```
 stop-slop/
 ├── SKILL.md              # Core instructions
+├── agents/
+│   └── openai.yaml       # Codex UI metadata
 ├── references/
 │   ├── phrases.md        # Phrases to remove
 │   ├── structures.md     # Structural patterns to avoid
@@ -23,9 +25,11 @@ stop-slop/
 
 ## Quick start
 
-**Claude Code:** Add this folder as a skill.
+**Project use:** Put this folder under `.agents/skills/stop-slop` in the repo.
 
-**Claude Projects:** Upload `SKILL.md` and reference files to project knowledge.
+**Personal use:** Put this folder under `$HOME/.agents/skills/stop-slop`.
+
+**Explicit use:** Ask Codex to use `$stop-slop` when writing, editing, or reviewing prose.
 
 **Custom instructions:** Copy core rules from `SKILL.md`.
 
